@@ -1,5 +1,7 @@
 # RulesofUX
 
+Rules of UX is a collection of the maxims and principles that designers can consider when building user interfaces.
+
 ![](images/demo.png)
 
 ## Installation
