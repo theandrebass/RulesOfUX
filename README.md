@@ -1,6 +1,6 @@
 # RulesofUX
 
-By Brittany Chiang (drebass)
+By Andre Bass (drebass)
 
 Rules of UX is a collection of the maxims and principles that designers can consider when building user interfaces.
 
