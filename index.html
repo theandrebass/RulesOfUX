@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name=mobile-web-app-capable content=yes>
     <meta name=apple-mobile-web-app-capable content=yes>
-    <title>Home | Laws of UX</title>
+    <title>Home | Rules of Front End Development</title>
     <meta name=description name=og:description content="Laws of UX is a collection of the maxims and principles that designers can consider when building user interfaces.">
     <meta name=image content=https://lawsofux.com/images/social.jpg>
     <meta itemprop=name content="Home | Laws of UX">
@@ -35,14 +35,14 @@
     <!-- Stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel=stylesheet href="style.css">
     </head>
     
     <header class=header role=banner data-header>
         <div class=header_container>
             <h1 class=header__title>
                 <a href=index.html data-transition-page>
-                    <span class=header__title-text>Rules of UX</span>
+                    <span class=header__title-text>Rules of Front End Development</span>
                 </a>
             </h1>
             <a href=about.html data-modal=#menu class=header__link>
@@ -146,11 +146,9 @@
                     </div>
                     <article class=poster>
                         <div class=poster__body style="background-color: #D6C229">
-                            <a href=/jakobs-law.html data-transition-page>
-                                <div class=poster__body-graphic>
-                                    <img src="Images/JakobsLaw.png">
-                                </div>
-                            </a>
+                            <div class=poster__body-graphic>
+                                <img src="Images/JakobsLaw.png">
+                            </div>
                         </div>
                         <div class=poster__info>
                             <p class=poster__info-count>05<p class=poster__info-desc>Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know.<br><br>You can simplify the learning process for users by providing familiar design patterns.</p>
@@ -353,6 +351,49 @@
             </section>
         </div>
     </main>
+
+    <section id=menu class=modal data-modal-window>
+        <header class=modal__header>
+            <a class=modal__close data-modal-close href=#>
+                <svg class=icon width=18 height=18 viewBox="0 0 100 100"><use xlink:href=#close /></svg>
+                <span class=visuallyhidden>Close</span>
+            </a>
+        </header>
+        <div class="modal__container container container--med">
+            <div class=modal__body>
+                <div class=modal__section>
+                    <nav role=navigation class=nav>
+                        <ul class=nav__list>
+                            <li class=nav__list-item><a href=index.html#aesthetic-usability-effect class=nav__link data-transition-page>Aesthetic Usability Effect</a></li>
+                            <li class=nav__list-item><a href=index.html#doherty-threshold class=nav__link data-transition-page>Doherty Threshold</a></li>
+                            <li class=nav__list-item><a href=index.html#fittss-law class=nav__link data-transition-page>Fitts’s Law</a></li>
+                            <li class=nav__list-item><a href=index.html#hicks-law class=nav__link data-transition-page>Hick’s Law</a></li>
+                            <li class=nav__list-item><a href=index.html#jakobs-law class=nav__link data-transition-page>Jakob’s Law</a></li>
+                            <li class=nav__list-item><a href=index.html#law-of-common-region class=nav__link data-transition-page>Law of Common Region</a></li>
+                            <li class=nav__list-item><a href=index.html#law-of-pragnanz class=nav__link data-transition-page>Law of Prägnanz</a></li>
+                            <li class=nav__list-item><a href=index.html#law-of-proximity class=nav__link data-transition-page>Law of Proximity</a></li>
+                            <li class=nav__list-item><a href=index.html#law-of-similarity class=nav__link data-transition-page>Law of Similarity</a></li>
+                            <li class=nav__list-item><a href=index.html#law-of-uniform-connectedness class=nav__link data-transition-page>Law of Uniform Connectedness</a></li>
+                            <li class=nav__list-item><a href=index.html#millers-law class=nav__link data-transition-page>Miller’s Law</a></li>
+                            <li class=nav__list-item><a href=index.html#occams-razor class=nav__link data-transition-page>Occam’s Razor</a></li>
+                            <li class=nav__list-item><a href=index.html#pareto-principle class=nav__link data-transition-page>Pareto Principle</a></li>
+                            <li class=nav__list-item><a href=rulesoindexfux.html#postels-law class=nav__link data-transition-page>Postel’s Law</a></li>
+                            <li class=nav__list-item><a href=index.html#von-restorff-effect class=nav__link data-transition-page>Von Restorff Effect</a></li>
+                            <li class=nav__list-item><a href=index.html#zeigarnik-effect class=nav__link data-transition-page>Zeigarnik Effect</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+                <aside class="modal__section text-sml">
+                    <p>Rules of UX is a collection of the maxims and principles that designers can consider when building user interfaces.
+                    <p>It was created by <a href=http://robertandrebass.com>Andre Bass</a>.
+                    <p>Tools used to create this site include paper, pencil and <a href=https://www.sketchapp.com/ >Sketch App</a> for design, and <a href=https://code.visualstudio.com >Visual Studio Code</a> for HTML/CSS templating.
+                    <p>Typography is set in <a href=https://www.ibm.com/plex/ >IBM Plex Sans and Plex Mono</a>, an open-source typeface by IBM.
+                    <p>©Andre Bass 2018 | All Rights Reserved<hr>
+                </aside>
+            </div>
+        </div>
+    </section>
 
 <script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/ScrollToPlugin.min.js></script>
